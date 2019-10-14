@@ -1,8 +1,5 @@
 package com.jsbh.portfolio.controller;
 
-import java.util.List;
-
-import com.jsbh.portfolio.domain.TestTable;
 import com.jsbh.portfolio.service.TestService;
 
 import org.springframework.beans.factory.annotation.Autowired;

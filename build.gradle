@@ -25,19 +25,18 @@ repositories {
 dependencies {
 	// spring boot
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 	// for html
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 
 	// for hibernate
-	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	
 	compileOnly 'org.projectlombok:lombok'
-	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
+
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	
 	runtimeOnly 'mysql:mysql-connector-java'
 }
